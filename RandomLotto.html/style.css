@@ -1,0 +1,77 @@
+header {
+  text-align: center;
+  text-decoration: underline wavy blue;
+  padding: 5px;
+  font-size: 200%;
+}
+.dotted-divider {
+  border-bottom: 1px dotted gray; /* 아래쪽 점선 */
+  padding: 10px;
+}
+div.content {
+  display: flex;
+  flex-direction: column;
+}
+div.number {
+  background-color: #2c2c2c;
+  width: 100vh;
+  height: 20%;
+  display: flex;
+  margin: 50px;
+}
+div.number div {
+  border-radius: 100%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+div.first {
+  background-color: red;
+  flex-grow: 1;
+}
+div.second {
+  background-color: yellow;
+  flex-grow: 1;
+}
+div.third {
+  background-color: #d2d2d2;
+  flex-grow: 1;
+}
+div.fourth {
+  background-color: rgb(30, 205, 21);
+  flex-grow: 1;
+}
+div.fifth {
+  background-color: blue;
+  flex-grow: 1;
+}
+div.sixth {
+  background-color: #d2d2d2;
+  flex-grow: 1;
+}
+div.title {
+  display: flex;
+  flex-direction: column;
+}
+div.number-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: black; /* 초록색 */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: green;
+}

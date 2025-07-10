@@ -23,6 +23,7 @@ div.number div {
   border-radius: 100%;
   color: black;
   display: flex;
+  width: 100px;
   justify-content: center;
   align-items: center;
   font-size: 40px;
